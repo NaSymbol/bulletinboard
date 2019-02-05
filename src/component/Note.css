@@ -1,0 +1,84 @@
+
+
+
+div.note {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(139, 215, 235);
+    margin: 2px 0;
+    position: absolute;
+    cursor: -webkit-grab;
+    -webkit-box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
+}
+div.note:hover{
+    background-color: rgb(162, 224, 240);
+
+}
+div.note p {
+    font-size: 11px;
+    padding: 5px;
+    font-family: "Shadows Into Light", Arial;
+    margin-top:5px;
+}
+
+@media (min-width: 400px){
+
+    div.note {
+        height: 150px;
+        width: 200px;
+    }
+
+    div.note p {
+        font-size: 22px;
+        padding: 5px;
+    }
+
+
+}
+
+div.note:active {
+    cursor: -webkit-grabbing;
+}
+
+
+div.note:hover > span {
+    opacity: 1;
+}
+
+div.note > span {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    opacity: 0;
+    transition: opacity .25s linear;
+}
+
+div.note button {
+    margin: 2px;
+}
+
+div.note > textarea {
+    height: 75%;
+    background: rgba(255, 255, 255, .5);
+}
+
+
+
+
+#add {
+    background-color: #88b988;
+    height: 3em;
+  }
+  
+  #edit {
+    background-color: #337ab7;
+  }
+  
+  #save {
+    background-color: #5cb85c;
+  }
+  
+  #remove {
+    background-color: #d9534f;
+  }

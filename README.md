@@ -1,3 +1,22 @@
+#Bulletin Board App
+##Description
+This a Bulletin Board App built using react where the user clicks the button and a note is randomly placed on the area with ability to remove, edit message.
+
+##Variations
+- Add SVG Logo
+- Change font family for note
+- Convert to Gatsby
+- Make site responsive
+-- shrink note on mobile
+- 
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Note from './Note'
 import FaPlus from 'react-icons/lib/fa/plus'
+import './Board.css';
 
 class Board extends Component {
 	constructor(props) {
