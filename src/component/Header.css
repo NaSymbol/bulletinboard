@@ -3,3 +3,27 @@ img{
     margin-left:10px;
     margin-top: 10px;
 }
+
+
+
+
+.App-logo-small{
+display:block;
+
+}
+.App-logo-large{
+display:none;
+}
+
+/* handles the small and large logo */
+@media(min-width:500px){
+
+    .App-logo-large{
+        display:Block;
+        
+        }
+        .App-logo-small{
+        display:None;
+        }
+
+}

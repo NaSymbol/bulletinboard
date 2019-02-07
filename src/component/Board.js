@@ -16,6 +16,9 @@ class Board extends Component {
 		this.nextId = this.nextId.bind(this)
 	}
 
+
+
+	// TODO:
 	componentWillMount() {
 		var self = this
 		if(this.props.count) {

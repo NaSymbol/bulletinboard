@@ -1,13 +1,15 @@
 import React, { Component } from 'react'
 import './Header.css';
-import logo from '../images/logo.png';
+import logoMin from '../images/logoMin.png';
+import logoLar from '../images/logoLarge.png';
 class Header extends Component {
 
 
 	render() {
 		return (
             <div>
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logoLar} className="App-logo-large" alt="logo" />
+                <img src={logoMin} className="App-logo-small" alt="logo" />
             </div>
 
         )
