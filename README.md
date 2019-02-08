@@ -1,8 +1,14 @@
-#Bulletin Board App
-##Description
+# Bulletin Board App
+## Description
 This a Bulletin Board App built using react where the user clicks the button and a note is randomly placed on the area with ability to remove, edit message.
 
-##Variations
+
+#Tech Used
+react, CSS3,
+
+
+
+## Variations
 - [x]Add SVG Logo
 - Change font family for note
 - Convert to Gatsby
@@ -10,7 +16,8 @@ This a Bulletin Board App built using react where the user clicks the button and
 -- [x] shrink note on mobile
 - 
 
-
+Open [UX prototype](www.andrewcrowe.nz)
+ Open [Demo](www.andrewcrowe.nz)
 
 
 
