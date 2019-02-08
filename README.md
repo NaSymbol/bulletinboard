@@ -3,8 +3,8 @@
 This a Bulletin Board App built using react where the user clicks the button and a note is randomly placed on the area with ability to remove, edit message.
 
 
-#Tech Used
-react, CSS3,
+# Tech Used
+react, CSS3
 
 
 
@@ -16,8 +16,8 @@ react, CSS3,
 -- [x] shrink note on mobile
 - 
 
-Open [UX prototype](www.andrewcrowe.nz)
- Open [Demo](www.andrewcrowe.nz)
+# Open [UX prototype](www.andrewcrowe.nz)
+# Open [Demo](www.andrewcrowe.nz)
 
 
 
