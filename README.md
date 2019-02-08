@@ -16,8 +16,8 @@ react, CSS3
 -- [x] shrink note on mobile
 - 
 
-# Open [UX prototype](www.andrewcrowe.nz)
-# Open [Demo](www.andrewcrowe.nz)
+# Open [UX prototype](https://www.figma.com/proto/JX4PYu8qq9R8T2a1nAYnO5O4/BulletinBoard?node-id=1%3A130&viewport=420%2C600%2C0.660769&scaling=scale-down)
+# Open [Demo](http://www.andrewcrowe.nz)
 
 
 
