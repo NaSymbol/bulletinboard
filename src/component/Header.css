@@ -1,7 +1,6 @@
 img{
-    widows: 70px;
-    margin-left:10px;
-    margin-top: 10px;
+   /* widows: 70px; */
+
 }
 
 
@@ -9,10 +8,16 @@ img{
 
 .App-logo-small{
 display:block;
+margin-left:10px;
+margin-top: 10px;
+margin-bottom: 5px;
 
 }
 .App-logo-large{
 display:none;
+margin-left:10px;
+margin-top: 10px;
+margin-bottom: 5px;
 }
 
 /* handles the small and large logo */
