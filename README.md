@@ -1,9 +1,14 @@
-# Bulletin Board App
 
 
 <p align="center">
     <img src="https://github.com/NaSymbol/bulletinboard/blob/master/src/images/logoLarge.png" alt="Bulletin Board App" width="400" />
 </p>
+
+
+<center>
+  <img src="https://github.com/NaSymbol/andrewcrowe.nz/blob/master/src/images/portfolio/BulletinBoardApp.jpg" width="100%" />
+</center>
+
 
 
 ## Description
