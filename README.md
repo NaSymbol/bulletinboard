@@ -1,4 +1,11 @@
 # Bulletin Board App
+
+
+<p align="center">
+    <img src="https://github.com/NaSymbol/bulletinboard/blob/master/src/images/logoLarge.png" alt="Bulletin Board App" width="400" />
+</p>
+
+
 ## Description
 This a Bulletin Board App built using react where the user clicks the button and a note is randomly placed on the area with ability to remove, edit message.
 
