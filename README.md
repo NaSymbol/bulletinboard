@@ -5,14 +5,19 @@
 </p>
 
 
-<center>
-  <img src="https://github.com/NaSymbol/andrewcrowe.nz/blob/master/src/images/portfolio/BulletinBoardApp.jpg" width="100%" />
-</center>
+
 
 
 
 ## Description
 This a Bulletin Board App built using react where the user clicks the button and a note is randomly placed on the area with ability to remove, edit message.
+
+
+<center>
+  <img src="https://github.com/NaSymbol/andrewcrowe.nz/blob/master/src/images/portfolio/BulletinBoardApp.jpg" width="50%" />
+</center>
+
+
 
 
 # Tech Used
