@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Note from './Note'
+import Note from '../Note/Note'
 import FaPlus from 'react-icons/lib/fa/plus'
 import './Board.css';
 
@@ -18,18 +18,9 @@ class Board extends Component {
 
 
 
-	// TODO:
-	componentWillMount() {
-		var self = this
-		if(this.props.count) {
-			fetch(`https://baconipsum.com/api/?type=all-meat&sentences=${this.props.count}`)
-				.then(response => response.json())
-				.then(json => json[0]
-								.split('. ')
-								.forEach(sentence => self.add(sentence.substring(0, 25))))
-		}
-	}
 
+
+//  
 	add(text) {
 		this.setState(prevState => ({
 			notes: [
@@ -42,11 +33,15 @@ class Board extends Component {
 		}))
 	}
 
+
+// generates the next ID to use
 	nextId() {
 		this.uniqueId = this.uniqueId || 0
 		return this.uniqueId++
 	}
 
+
+// updates the contents of the note given id
 	update(newText, i) {
 		console.log('updating item at index', i, newText)
 		this.setState(prevState => ({
@@ -56,6 +51,7 @@ class Board extends Component {
 		}))
 	}
 
+	// removes the note with id 
 	remove(id) {
 		console.log('removing item at', id)
 		this.setState(prevState => ({
@@ -63,6 +59,9 @@ class Board extends Component {
 		}))
 	}
 
+
+
+	// builds the notes from state
 	eachNote(note, i) {
 		return (
 			<Note key={note.id}
@@ -74,6 +73,8 @@ class Board extends Component {
 		)
 	}
 
+
+	// renders the board component
 	render() {
 		return (
 			<div className="board">

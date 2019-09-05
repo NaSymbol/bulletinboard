@@ -4,7 +4,7 @@ import FaTrash from 'react-icons/lib/fa/trash'
 import FaFloppyO from 'react-icons/lib/fa/floppy-o'
 import './Note.css';
 
-
+// the note component
 class Note extends Component {
 	constructor(props) {
 		super(props)
@@ -19,6 +19,7 @@ class Note extends Component {
 		this.randomBetween = this.randomBetween.bind(this)
 	}
 
+// When mounts the Note component changes style with random properties
 	componentWillMount() {
 		this.style = {
 			right: this.randomBetween(0, window.innerWidth - 150, 'px'),
@@ -27,10 +28,14 @@ class Note extends Component {
 		}
 	}
 
+
+	// returns  
 	randomBetween(x, y, s) {
 		return x + Math.ceil(Math.random() * (y-x)) + s
 	}
 
+
+	// rerender the note component
 	componentDidUpdate() {
 		var textArea
 		if(this.state.editing) {
@@ -41,22 +46,28 @@ class Note extends Component {
 
 	}
 
+	// 
 	shouldComponentUpdate(nextProps, nextState) {
 		return (
 			this.props.children !== nextProps.children || this.state !== nextState
 		)
 	}
 
+
+	// changes the editing state
 	edit() {
 		this.setState({
 			editing: true
 		})
 	}
 
+
+	//Passes up to board component. 
 	remove() {
 		this.props.onRemove(this.props.index)
 	}
 
+	// Form submit of note change
 	save(e) {
 		e.preventDefault()
 		this.props.onChange(this._newText.value, this.props.index)
@@ -65,6 +76,8 @@ class Note extends Component {
 		})
 	}
 
+
+	// Render state of note in editing state
 	renderForm() {
 		return (
 			<div className="note" style={this.style}>
@@ -77,6 +90,8 @@ class Note extends Component {
 		)
 	}
 
+
+	// render state of normal note component
 	renderDisplay() {
 		return (
 			<div className="note" style={this.style}>

@@ -1,7 +1,17 @@
 import React, { Component } from 'react'
+
+
+// imported assets
 import './Header.css';
 import logoMin from '../images/logoMin.png';
 import logoLar from '../images/logoLarge.png';
+
+
+
+
+
+
+// header component
 class Header extends Component {
 
 
